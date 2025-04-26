@@ -1,0 +1,167 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a;
+    color: #f0f0f0;
+  }
+  
+  /* Header Styles */
+  header {
+    position: relative;
+    height: 300px;
+    overflow: hidden;
+  }
+  .header-content {
+    position: relative;
+    height: 100%;
+    text-align: center;
+  }
+  .header-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(50%);
+    transition: filter 0.3s ease-in-out;
+  }
+  .header-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #ffffff;
+  }
+  header:hover .header-image {
+    filter: brightness(30%);
+  }
+  header:hover .header-overlay h1,
+  header:hover .header-overlay p {
+    color: #ff4d4d;
+  }
+  
+  /* Section Styles */
+  .introduction {
+    text-align: center;
+    margin: 10px auto;
+  }
+  .league-info {
+    margin: 10px auto;
+    text-align: center;
+    background-color: #2a2a2a;
+    padding: 15px;
+    border-radius: 10px;
+    width: 90%;
+  }
+  .league-info ul li {
+    margin: 10px 0;
+    color: #f0f0f0;
+  }
+  
+  /* Button Styles */
+  button {
+    margin: 10px;
+    padding: 8px 12px;
+    font-size: 1rem;
+    background-color: #555;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  button:hover {
+    background-color: #ff4d4d;
+    color: #000;
+  }
+  
+  /* Form Styles */
+  form {
+    margin: 20px auto;
+    text-align: center;
+    background-color: #2a2a2a;
+    padding: 15px;
+    border-radius: 10px;
+    width: 90%;
+  }
+  input, textarea {
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    background-color: #444;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+  }
+  textarea {
+    height: 80px;
+  }
+  .error {
+    color: #ff4d4d;
+  }
+  
+  /* Footer Styles */
+footer {
+    background-color: #2a2a2a;
+    color: #f0f0f0;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  .footer-info {
+    text-align: left;
+    max-width: 300px;
+  }
+  
+  .footer-info h3 {
+    color: #ff4d4d;
+  }
+  
+  .footer-links {
+    list-style: none;
+  }
+  
+  .footer-links ul {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-links li {
+    margin: 5px 0;
+  }
+  
+  .footer-links a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-links a:hover {
+    color: #ff4d4d;
+  }
+  
+  .footer-logo img {
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid #ff4d4d;
+    transition: transform 0.3s ease;
+  }
+  
+  .footer-logo img:hover {
+    transform: scale(1.1);
+  }
+  
+  .footer-bottom {
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #cccccc;
+  }
+  
